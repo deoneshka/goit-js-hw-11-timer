@@ -46,7 +46,6 @@ class CountdownTimer {
     this.hoursRef = this.timerRef.querySelector('[data-value="hours"]');
     this.minsRef = this.timerRef.querySelector('[data-value="mins"]');
     this.secsRef = this.timerRef.querySelector('[data-value="secs"]');
-    this.intervalId = null;
   };
 
   start() {
